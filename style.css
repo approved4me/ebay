@@ -1,7 +1,6 @@
 /************************
   custom css
 *************************/
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -10,10 +9,10 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  font-weight: 200;
-  color: DarkSlateGray;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: DarkSlateGray;
 }
 
 .container {
@@ -27,15 +26,15 @@ img {
 }
 
 .img-flag {
-  float: left;
-  max-width: 100%;
+	float: left;
+	max-width: 100%;
   height: 55px;
   padding: 8px;
-}
+  }
 
 .border {
   box-shadow: 0 5px 10px #999999;
-  border: solid 10px;
+	border: solid 10px;
   border-color: #ffffff;
 }
 
@@ -46,43 +45,40 @@ hr {
 }
 
 h2 {
-  font-size: 25px;
-  text-align: center;
-  font-weight: 200;
-  margin: 0;
-  padding: 10px;
-  background: Linen;
-  border: 1px solid DarkSlateGray;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 200;
+    margin: 0;
+    padding: 10px;
+    background: Linen;
+    border: 1px solid DarkSlateGray;
 }
 
 h2.urlaub{
     border: 3px dashed red;
     color: red;
-}
+  }
 
-h2.urlaub {
-  border: 3px dashed red;
-  color: red;
-}
-
-.shadow {
+.shadow{
   box-shadow: 0 5px 10px #999999;
   padding: 10px;
-  margin-top: 0px;
+  margin-top:0px;
   border: 1px solid DarkSlateGray;
-}
+
+  }
 
 .Demo {
   background: lightblue;
+ 
 }
 
 /*+++++++++++++++++++++++
   custom css end
 *+++++++++++++++++++++++*/
 
-
 .hide {
   display: none;
+}
 
 .datum01::after { 
     font-weight: 400;
@@ -118,7 +114,7 @@ h2.urlaub {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
-}
+ }
 
 .Grid--top {
   -webkit-box-align: start;
@@ -135,7 +131,7 @@ h2.urlaub {
 .Grid--center {
   -webkit-box-align: center;
   -webkit-align-items: center;
-  align-items: center;
+   align-items: center;
 }
 
 .Grid--justifyCenter {
@@ -282,10 +278,10 @@ h2.urlaub {
 .Grid--gutters {
   margin: -1em 0 1em -1em;
 }
-
-.Grid--gutters> .Grid-cell {
+.Grid--gutters > .Grid-cell {
   padding: 1em 0 0 1em;
 }
+
 
 .Grid--guttersLg {
   margin: -1.5em 0 1.5em -1.5em;
@@ -369,7 +365,6 @@ h2.urlaub {
 .u-textCenter {
   text-align: center!important;
 }
-
 
 /*++++++++++++++++++++++
   flexbox grid end
