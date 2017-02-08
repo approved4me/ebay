@@ -80,10 +80,9 @@ h2.urlaub {
   custom css end
 *+++++++++++++++++++++++*/
 
-/*
+
 .hide {
   display: none;
-}*/
 
 .datum01::after { 
     font-weight: 400;
