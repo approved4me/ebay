@@ -51,29 +51,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
- }
-
-.Grid--top {
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  align-items: flex-start;
-}
-
-.Grid--bottom {
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  align-items: flex-end;
-}
-
-.Grid--center {
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-   align-items: center;
-}
-
-.Grid--justifyCenter {
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
   flex-direction: row;
 }
 
